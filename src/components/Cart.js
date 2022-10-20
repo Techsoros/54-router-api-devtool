@@ -7,6 +7,7 @@ const Cart = ({ cart, removeFromCart }) => {
   if (cart.length === 0) {
     msg = <h2 className="font-bold text-orange-300">Buy Some Items !!</h2>;
   }
+
   const getItem = (item) => {
     removeFromCart(item);
   };

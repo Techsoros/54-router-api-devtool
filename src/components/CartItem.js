@@ -10,7 +10,7 @@ const CartItem = ({ item, getItem }) => {
         </div>
         <h2 className="font-bold ml-5">{name.toUpperCase()}</h2>
       </div>
-      <button onClick={() => getItem} className="mr-5 ">
+      <button onClick={() => getItem(item)} className="mr-5 ">
         ❎
       </button>
     </div>
